@@ -24,7 +24,53 @@ public class HOJA4GRUPAL {
         System.out.println("3. Doublelist");
         System.out.println("4. Cicularlist");
         
+          try
+        {
+            Scanner sc = new Scanner(System.in);
+            int opcion = sc.nextInt();
+            implement.getInstance(opcion);
+            
+        }
+        catch(Exception e){ System.out.println(e.getMessage()); }
         
+        
+        String path = "src/values.txt";
+        List<String> lineas = leerArchivoDeTexto(path);
+        if(lineas == null)
+        {
+           System.out.println("no se encuentra el archivo");
+           return;
+        }
+        
+            //  patron singleton
+            for(String linea : lineas)
+                System.out.println("Resultado: " + linea + " --> " + 
+                        implement.instance.calcular(linea));
+            
+        try
+        {
+            System.in.read();
+        }
+        catch(IOException e) {}
+    }
+    
+    /**
+     * lectura del archivo
+     * @param path la ubicacion del archivo de texto para leer
+     * @return lista con la lineas del archivo
+     */
+    public static List<String> leerArchivoDeTexto(String path)
+    {
+        try
+        {
+            return Files.readAllLines(Paths.get(path), Charset.defaultCharset());
+        }
+        catch(Exception e)
+        {
+            System.out.println(e.getMessage());
+        }
+        return null;
+                
     }
     
 }
