@@ -1,6 +1,10 @@
 
 package hoja4grupal;
-
+/**
+ * * @author diederich solis
+ *@author rodrigo mansilla
+ * @author Alexis mesias
+ */
 import java.util.ArrayList;
 
 public class StackArray<E> implements Stack<E>

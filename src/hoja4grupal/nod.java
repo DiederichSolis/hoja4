@@ -1,4 +1,8 @@
-
+/*
+ * * @author diederich solis
+ *@author rodrigo mansilla
+ * @author Alexis mesias
+ */
 package hoja4grupal;
 /**
  *

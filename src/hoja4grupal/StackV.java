@@ -1,7 +1,11 @@
 
 package hoja4grupal;
 
-
+/*
+ * * @author diederich solis
+ *@author rodrigo mansilla
+ * @author Alexis mesias
+ */
 
 public class StackV<E> implements Stack<E>
 {
@@ -27,7 +31,7 @@ public class StackV<E> implements Stack<E>
     
     /**
      * agregar elemento
-     * @param value 
+    
      */
     @Override
     public void push(E value) 
@@ -39,7 +43,7 @@ public class StackV<E> implements Stack<E>
     /**
      * quitar valor o elemento 
      
-     * @return 
+     * @return el dato
      */
     @Override
     public E pop() 
@@ -76,7 +80,7 @@ public class StackV<E> implements Stack<E>
     /**
      * regresa contador valor acutal
      * 
-     * @return 
+     * @return tamaño
      */
     @Override
     public int size()

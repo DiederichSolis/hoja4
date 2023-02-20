@@ -1,5 +1,10 @@
 
 package hoja4grupal;
+/**
+ * @author diederich solis
+ *@author rodrigo mansilla
+ * @author Alexis mesias
+ * */
 
 public class LC<E> extends AbstractList<E>
 {

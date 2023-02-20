@@ -7,8 +7,9 @@ import java.nio.file.Paths;
 import java.util.List;
 import java.util.Scanner;
 /**
- *
- * @author diederich
+ * @author diederich solis
+ *@author rodrigo mansilla
+ * @author Alexis mesias
  */
 public class HOJA4GRUPAL {
 
@@ -16,7 +17,11 @@ public class HOJA4GRUPAL {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-          System.out.println("Bienvenido, Favor ingrese una opcion: ");
+        System.out.println("ADVERTENCIA!!");
+        System.out.println("Antes de iniciar favor de verificar que el archivo .txt este bien establecido");
+        System.out.println("");
+        System.out.println("");
+        System.out.println("Bienvenido, Favor ingrese una opcion: ");
         System.out.println("Stack:");
         System.out.println("0. ArrayList");
         System.out.println("1. vector");
@@ -38,13 +43,13 @@ public class HOJA4GRUPAL {
         List<String> lineas = leerArchivoDeTexto(path);
         if(lineas == null)
         {
-           System.out.println("no se encuentra el archivo");
+           System.out.println("Lo lamentamos no se encontro el archivo .txt, favor de verificar");
            return;
         }
         
             //  patron singleton
             for(String linea : lineas)
-                System.out.println("Resultado: " + linea + " --> " + 
+                System.out.println("El resultado de la operacion es: " + linea + " --> " + 
                         implement.instance.calcular(linea));
             
         try

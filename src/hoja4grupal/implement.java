@@ -1,5 +1,9 @@
 package hoja4grupal;
-
+/*
+ * * @author diederich solis
+ *@author rodrigo mansilla
+ * @author Alexis mesias
+ */
 public class implement implements calculate
 {
     public static implement instance;

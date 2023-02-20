@@ -1,6 +1,12 @@
 
 package hoja4grupal;
-
+/**
+ * 
+ * @author diederich solis
+ *@author rodrigo mansilla
+ * @author Alexis mesias
+ *
+ */
 
 public abstract class AbstractList<E> implements LA<E>
 {
@@ -11,7 +17,7 @@ public abstract class AbstractList<E> implements LA<E>
     
     /**
      * post: retorna verdadero su esta vacia la lista
-     * @return 
+     * @return size
      */
     public boolean isEmpty()
     {
@@ -101,7 +107,7 @@ public abstract class AbstractList<E> implements LA<E>
     /**
    
      * post: devuelve el ultimo elemento de la lista.
-     * @return 
+     * @return  get
      */
     public E get()
     {
