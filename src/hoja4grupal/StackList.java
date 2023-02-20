@@ -6,9 +6,15 @@ public class StackList<E> implements Stack<E>
 {
     protected LA<E> list;
     
-    public StackList(LA lista)
+    public StackList(LB lb)
     {
-        this.list = lista;
+        this.list = list;
+    }
+
+    public StackList(LD ld) {
+    }
+
+    public StackList(LC lc) {
     }
 
     @Override
