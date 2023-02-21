@@ -1,8 +1,8 @@
 package hoja4grupal;
 /**
-* @author diederich solis
- *@author rodrigo mansilla
- * @author Alexis mesias
+* @author Diederich Solis
+ *@author Rodrigo Mansilla
+ * @author Alexis Mesias
  **/
 
 public interface LA<E> {
