@@ -7,9 +7,9 @@ import java.nio.file.Paths;
 import java.util.List;
 import java.util.Scanner;
 /**
- * @author diederich solis
- *@author rodrigo mansilla
- * @author Alexis mesias
+ * @author Diederich Solis
+ *@author Rodrigo Mansilla
+ * @author Alexis Mesias
  */
 public class HOJA4GRUPAL {
 
