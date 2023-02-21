@@ -1,9 +1,9 @@
 package hoja4grupal;
 
 /**
- * @author diederich solis
- *@author rodrigo mansilla
- * @author Alexis mesias
+ * @author Diederich Solis
+ *@author Rodrigo Mansilla
+ * @author Alexis Mesias
  */
 public class LB<E> extends AbstractList<E>
 {
@@ -22,7 +22,7 @@ public class LB<E> extends AbstractList<E>
     
     @Override
     /**
-     * Devuelve la cantidad de nodos en esta lista.
+     * Devuelve la cantidad de nodos que se encuentran en esta lista.
      
      */
     public int size() 
